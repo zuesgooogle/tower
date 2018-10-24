@@ -1,0 +1,6 @@
+- name: yinuojr deploy
+  hosts: all
+  tasks:
+    - name: deploy yinuojr discovery service 
+      shell: sh /data/yinuojr-deploy.sh
+
